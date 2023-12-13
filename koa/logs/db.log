@@ -1,0 +1,156 @@
+[2023-12-08T15:45:47.893] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:46:01.192] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:46:02.509] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:47:02.731] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:53:53.149] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:53:59.059] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:55:17.444] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:56:16.967] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:56:17.069] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:56:22.897] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:56:26.999] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:56:27.562] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:56:39.817] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:56:52.447] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:56:52.451] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:03.420] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:57:03.542] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:07.536] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:11.917] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:12.418] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:12.668] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:12.852] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:21.445] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T15:57:21.561] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:29.024] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T15:57:52.806] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:01:07.595] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:01:31.584] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:02:17.067] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:02:30.464] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:03:52.424] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:04:12.468] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:04:47.301] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:04:54.541] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:05:45.089] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:06:58.101] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:07:10.124] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:08:22.110] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:08:34.322] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:08:49.584] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:09:09.709] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:09:27.822] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:09:41.507] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:10:36.611] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:11:11.723] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:11:20.224] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:11:31.660] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:11:46.908] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:12:10.947] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:12:22.755] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:13:09.218] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:13:40.423] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:13:47.143] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:13:51.610] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:14:13.087] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:14:38.386] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:15:15.281] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:15:26.407] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:16:09.945] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:16:22.016] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:16:54.104] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:17:04.036] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:17:33.843] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:17:51.442] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:18:00.116] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:18:05.260] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:18:12.116] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:18:33.618] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:19:04.082] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:19:42.784] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:19:53.225] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:20:00.165] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:20:39.015] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:20:43.915] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:20:53.870] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:21:12.824] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:22:05.290] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:22:34.334] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:22:58.076] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:24:10.224] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:24:49.065] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:25:10.155] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:25:55.798] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:26:20.838] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:26:46.398] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:26:55.962] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:27:37.260] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:28:03.573] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:28:51.226] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:29:13.015] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:29:42.030] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:30:24.357] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:31:00.652] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:31:08.699] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:31:34.685] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:32:02.746] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:32:18.656] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:32:24.334] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:32:27.698] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:32:31.745] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:32:38.542] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:32:40.094] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:32:40.279] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:33:13.206] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:33:13.359] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:33:44.465] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:33:46.977] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:35:06.005] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:35:36.905] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:36:26.392] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:36:40.781] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:38:12.986] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:39:51.648] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:43:40.766] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:46:15.226] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T16:52:05.097] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:52:43.598] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T16:58:50.767] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:01:16.832] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:03:28.570] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `createdAt`, `updatedAt` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:25:36.796] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:25:45.294] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:25:49.849] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:26:28.013] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:29:43.186] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:32:18.695] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:32:18.852] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:32:54.615] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:32:57.559] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:35:16.189] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:36:03.956] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:36:06.236] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:36:07.223] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:36:52.165] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:36:52.361] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:37:00.461] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:37:08.807] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:38:07.734] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:41:20.558] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:42:04.953] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:42:09.569] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `password`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 1;
+[2023-12-08T17:44:46.878] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:48:30.860] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:52:19.690] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:53:38.741] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:54:44.796] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T17:57:18.237] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T18:02:15.963] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T18:09:56.243] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T18:11:52.396] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T18:24:13.504] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T18:24:46.976] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T18:30:02.524] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-08T18:30:16.366] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-13T17:59:41.411] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2023-12-13T18:00:45.171] [INFO] db - Executing (default): SELECT 1+1 AS result
