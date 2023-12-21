@@ -41,6 +41,7 @@ class LoginController {
     console.log(data);
 
     if (error !== null) {
+      ctx.status = 404
       return response.error(ctx, error)
     }
 
@@ -57,6 +58,7 @@ class LoginController {
       response.success(ctx, '登录成功', 200, { token });
     } else {
       // 密码不匹配，返回错误信息
+      ctx.status = 404
       response.error(ctx, "用户名或密码错误");
     }
   }
