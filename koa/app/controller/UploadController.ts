@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-11 17:37:10
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2023-12-12 10:08:25
+ * @LastEditTime: 2023-12-20 09:21:27
  * @FilePath: \koa\app\controller\UploadController.ts
  * @Description: 文件上传
  * 
@@ -11,8 +11,7 @@
 import { Context } from "koa"; import response from "../../utils/response";
 import fs from "fs";
 import path from "path";
-import { error } from "console";
-;
+
 
 class UploadController {
   index(ctx: Context) {
@@ -43,7 +42,7 @@ class UploadController {
       const filepath = `/upload/${this.randomStr(32)}${ext}`
       const writer = fs.createWriteStream(`static${filepath}`)
       reader.pipe(writer)
-      response.success(ctx, { file: filepath })
+      response.success(ctx, '', 200, { file: filepath })
     } else {
       response.error(ctx, '文件不可为空')
     }

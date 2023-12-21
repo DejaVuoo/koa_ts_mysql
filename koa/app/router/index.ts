@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-07 15:28:06
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2023-12-13 10:40:18
+ * @LastEditTime: 2023-12-19 14:01:41
  * @FilePath: \koa\app\router\index.ts
  * @Description: 路由配置
  * 
@@ -21,9 +21,9 @@ const router = new koaRouter({
 //不要要鉴权
 router.post('/login', LoginController.index) //登录
 router.post('/addAdmin', AdminController.addAdmin) //注册
+router.post('/queryName', IndexController.index) //测试
 //AuthMiddleware以下是需要鉴权
 router.use(AuthMiddleware)
-// router.get('/', IndexController.index) //测试
 router.get('/list', AdminController.getAdminList) //获取管理员列表
 router.put('/updateAdmin/:id', AdminController.updatedAdmin) //更新管理员信息
 router.delete('/deleteAdmin/:id', AdminController.deleteAdmin) // 删除管理员

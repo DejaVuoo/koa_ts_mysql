@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-13 16:04:50
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2023-12-13 19:04:39
+ * @LastEditTime: 2023-12-14 15:42:33
  * @FilePath: \koa\app\index.ts
  * @Description: 
  * 
@@ -12,15 +12,18 @@ require('dotenv').config()
 import db from "./db"
 db()
 import Koa from "koa"
+
 import router from "./router/"
 import { Server } from 'http'
 import AccessLogMiddleware from "./middleware/AccessLogMiddleware"
 import koabody from 'koa-body'
 import KoaStatic from 'koa-static'
 import path from "path"
+const cors = require("koa2-cors");
 const app = new Koa()
 
 app
+  .use(cors())
   .use(koabody({
     multipart: true,
     formidable: {

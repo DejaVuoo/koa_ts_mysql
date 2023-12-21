@@ -12,9 +12,9 @@ class AdminService {
       offset: (page - 1) * limit
     })
   }
-  getAdminByName(name: string) {
+  getAdminByName(username: string) {
     return Admin.findOne({
-      where: { name: name }
+      where: { username: username }
     })
   }
   addAdmin(admin: any) {

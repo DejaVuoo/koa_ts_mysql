@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-11 10:19:52
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2023-12-11 11:07:21
+ * @LastEditTime: 2023-12-20 09:02:45
  * @FilePath: \koa\utils\response.ts
  * @Description: 约束输出的数据格式，用于API的统一管理，根据success error 两个函数返回对应的状态
  * 
@@ -18,7 +18,7 @@ import { Context } from "koa";
  */
 
 class response {
-  success(ctx: Context, data: any = [], msg: string = "success", code: number = 200) {
+  success(ctx: Context, msg: string = "success", code: number = 200, data: any = []) {
     ctx.body = {
       code,
       msg,
@@ -32,7 +32,7 @@ class response {
    * @param {*} data 扩展提示 可能是数组、对象
    * @param {number} code 状态码
    */
-  error(ctx: Context, msg: string = "error", data: any = [], code: number = 404) {
+  error(ctx: Context, msg: string = "error",code: number = 404 ,data: any = [] ) {
     ctx.body = {
       code,
       msg,

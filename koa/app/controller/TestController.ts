@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-13 16:00:35
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2023-12-13 16:00:55
+ * @LastEditTime: 2023-12-19 15:09:10
  * @FilePath: \koa\app\controller\TestController.ts
  * @Description: 
  * 
@@ -11,20 +11,36 @@
 import { Context, Next } from "koa";
 import Logger from "../logger";
 import AdminService from "../service/AdminService";
+import vaildate from "../../utils/validate";
+import response from "../../utils/response";
+import { Rules } from "async-validator";
 class IndexController {
-  async index(ctx: Context, next: Next) {
+  async index(ctx: Context) {
     // Logger.info('msg', 'msg')
-    const admin = await AdminService.getAdmin();
-    // ctx.body = [1, 2, 3, 4, 5, 6, 7, 8];
-    ctx.body = admin;
-    // return next().catch((err: any) => {
-    //   if (401 == err.status) {
-    //     ctx.status = 404;
-    //     ctx.body = 'Protected resource, use Authorization header to get access\n';
-    //   } else {
-    //     throw err;
-    //   }
-    // });
+    const rules: Rules = {
+      username: [
+        {
+          type: 'string',
+          required: true,
+          message: '用户名不可为空',
+        }
+      ]
+    }
+    interface IAdmin {
+      username: string
+    }
+    const { data, error } = await vaildate<IAdmin>(ctx, rules)
+    console.log(data,'验证用户名');
+    if (error !== null) {
+      return response.error(ctx, error)
+    }
+    //判断是否新账户重复
+    const newadmin = await AdminService.getAdminByName(data.username)
+    if (newadmin !== null) {
+      return response.error(ctx, '用户名重复,账户已存在')
+    } else {
+      return response.success(ctx, '用户名可以使用')
+    }
   }
 }
 export default new IndexController
