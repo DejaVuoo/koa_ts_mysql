@@ -395,3 +395,4 @@
 [2023-12-21T08:44:40.630] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
 [2023-12-21T08:44:40.730] [INFO] db - Executing (default): SELECT count(*) AS `count` FROM `Admins` AS `Admin`;
 [2023-12-21T08:44:40.732] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 0, 15;
+[2023-12-21T11:31:04.410] [INFO] db - Executing (default): SELECT 1+1 AS result
