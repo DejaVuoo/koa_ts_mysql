@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-13 16:00:35
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2023-12-19 15:09:10
+ * @LastEditTime: 2023-12-27 15:37:45
  * @FilePath: \koa\app\controller\TestController.ts
  * @Description: 
  * 
@@ -39,6 +39,7 @@ class IndexController {
     if (newadmin !== null) {
       return response.error(ctx, '用户名重复,账户已存在')
     } else {
+      console.log(data, '用户名可以使用');
       return response.success(ctx, '用户名可以使用')
     }
   }

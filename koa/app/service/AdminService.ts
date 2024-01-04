@@ -20,8 +20,8 @@ class AdminService {
   addAdmin(admin: any) {
     return Admin.create(admin)
   }
-  updateAdmin(id: number, admin: any) {
-    return Admin.update(admin, { where: { id: id } })
+  updateAdmin(id: number, data: any) {
+    return Admin.update(data, { where: { id: id } })
   }
   deleteAdmin(id: number) {
     return Admin.destroy({ where: { id: id } })

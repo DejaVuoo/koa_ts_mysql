@@ -1,5 +1,15 @@
 /*
  * @Author: DejaVu 1343558760@qq.com
+ * @Date: 2023-12-21 09:55:44
+ * @LastEditors: DejaVu 1343558760@qq.com
+ * @LastEditTime: 2023-12-27 16:57:29
+ * @FilePath: \koa\app\controller\AdminController.ts
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+ */
+/*
+ * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-11 13:50:36
  * @LastEditors: DejaVu 1343558760@qq.com
  * @LastEditTime: 2023-12-21 09:49:17
@@ -95,6 +105,7 @@ class AdminController {
 
   async updatedAdmin(ctx: Context) {
     const id = ctx.params['id'] as number
+    console.log(ctx.params)
     const admin = AdminService.getAdminById(id)
     if (admin === null) {
       return response.error(ctx, '管理员不存在')
@@ -151,7 +162,7 @@ class AdminController {
     }
     const row = await AdminService.deleteAdmin(id)
     if (row > 0) {
-      return response.success(ctx)
+      return response.success(ctx,'用户已删除')
     }
     return response.error(ctx, '删除失败')
 
