@@ -26,6 +26,6 @@ const config = {
   jwt: {
     jwt_secret: process.env.JWT_SECRET,
     jwt_expire: process.env.JWT_EXPIRE
-  }
+  },
 }
 export default config

@@ -35,6 +35,9 @@ dependencies:
   bcrypt:
     specifier: ^5.1.1
     version: registry.npmmirror.com/bcrypt@5.1.1
+  crypto:
+    specifier: ^1.0.1
+    version: registry.npmmirror.com/crypto@1.0.1
   dotenv:
     specifier: ^16.3.1
     version: registry.npmmirror.com/dotenv@16.3.1
@@ -62,6 +65,9 @@ dependencies:
   mysql2:
     specifier: ^3.6.5
     version: registry.npmmirror.com/mysql2@3.6.5
+  node-rsa:
+    specifier: ^1.1.1
+    version: registry.npmmirror.com/node-rsa@1.1.1
   nodemon:
     specifier: ^3.0.2
     version: registry.npmmirror.com/nodemon@3.0.2
@@ -85,6 +91,9 @@ devDependencies:
   '@types/node':
     specifier: ^20.10.4
     version: registry.npmmirror.com/@types/node@20.10.4
+  '@types/node-rsa':
+    specifier: ^1.1.4
+    version: registry.npmmirror.com/@types/node-rsa@1.1.4
   '@types/validator':
     specifier: ^13.11.7
     version: registry.npmmirror.com/@types/validator@13.11.7
@@ -1209,6 +1218,14 @@ packages:
     version: 0.7.34
     dev: false
 
+  registry.npmmirror.com/@types/node-rsa@1.1.4:
+    resolution: {integrity: sha512-dB0ECel6JpMnq5ULvpUTunx3yNm8e/dIkv8Zu9p2c8me70xIRUUG3q+qXRwcSf9rN3oqamv4116iHy90dJGRpA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node-rsa/-/node-rsa-1.1.4.tgz}
+    name: '@types/node-rsa'
+    version: 1.1.4
+    dependencies:
+      '@types/node': registry.npmmirror.com/@types/node@20.10.4
+    dev: true
+
   registry.npmmirror.com/@types/node@20.10.4:
     resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-20.10.4.tgz}
     name: '@types/node'
@@ -1414,6 +1431,14 @@ packages:
     resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/asap/-/asap-2.0.6.tgz}
     name: asap
     version: 2.0.6
+    dev: false
+
+  registry.npmmirror.com/asn1@0.2.6:
+    resolution: {integrity: sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/asn1/-/asn1-0.2.6.tgz}
+    name: asn1
+    version: 0.2.6
+    dependencies:
+      safer-buffer: registry.npmmirror.com/safer-buffer@2.1.2
     dev: false
 
   registry.npmmirror.com/async-validator@4.2.5:
@@ -1888,6 +1913,13 @@ packages:
       shebang-command: registry.npmmirror.com/shebang-command@2.0.0
       which: registry.npmmirror.com/which@2.0.2
     dev: true
+
+  registry.npmmirror.com/crypto@1.0.1:
+    resolution: {integrity: sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/crypto/-/crypto-1.0.1.tgz}
+    name: crypto
+    version: 1.0.1
+    deprecated: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
+    dev: false
 
   registry.npmmirror.com/date-format@4.0.14:
     resolution: {integrity: sha512-39BOQLs9ZjKh0/patS9nrT8wc3ioX3/eA/zgbKNopnF2wCqJEoxywwwElATYvRsXdnOxA/OQeQoFZ3rFjVajhg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/date-format/-/date-format-4.0.14.tgz}
@@ -3799,6 +3831,14 @@ packages:
     name: node-releases
     version: 2.0.14
     dev: true
+
+  registry.npmmirror.com/node-rsa@1.1.1:
+    resolution: {integrity: sha512-Jd4cvbJMryN21r5HgxQOpMEqv+ooke/korixNNK3mGqfGJmy0M77WDDzo/05969+OkMy3XW1UuZsSmW9KQm7Fw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/node-rsa/-/node-rsa-1.1.1.tgz}
+    name: node-rsa
+    version: 1.1.1
+    dependencies:
+      asn1: registry.npmmirror.com/asn1@0.2.6
+    dev: false
 
   registry.npmmirror.com/nodemon@3.0.2:
     resolution: {integrity: sha512-9qIN2LNTrEzpOPBaWHTm4Asy1LxXLSickZStAQ4IZe7zsoIpD/A7LWxhZV3t4Zu352uBcqVnRsDXSMR2Sc3lTA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nodemon/-/nodemon-3.0.2.tgz}

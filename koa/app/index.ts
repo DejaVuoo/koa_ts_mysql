@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-13 16:04:50
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2023-12-14 15:42:33
+ * @LastEditTime: 2024-01-16 15:57:56
  * @FilePath: \koa\app\index.ts
  * @Description: 
  * 
@@ -36,7 +36,9 @@ app
 
 
 const run = (port: any): Server => {
-  return app.listen(port)
+  return app.listen(port, () => {
+    console.log('Server is running on ' + port);
+  })
 }
 
 export default run 

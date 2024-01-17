@@ -834,3 +834,122 @@
 [2024-01-03T15:26:50.190] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 0, 15;
 [2024-01-03T16:59:03.984] [INFO] db - Executing (default): SELECT count(*) AS `count` FROM `Admins` AS `Admin`;
 [2024-01-03T16:59:03.984] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 0, 15;
+[2024-01-04T14:39:09.371] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-04T17:02:36.465] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-04T17:02:36.693] [INFO] db - Executing (default): SELECT count(*) AS `count` FROM `Admins` AS `Admin`;
+[2024-01-04T17:02:36.696] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 0, 15;
+[2024-01-04T17:03:24.654] [INFO] db - Executing (default): SELECT count(*) AS `count` FROM `Admins` AS `Admin`;
+[2024-01-04T17:03:24.655] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 0, 15;
+[2024-01-16T09:32:43.407] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T09:35:37.484] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T09:47:06.253] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T09:48:44.002] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T09:48:59.217] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T10:15:52.563] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T13:49:38.180] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T13:49:59.977] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:10:28.661] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:13:00.934] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:18:37.155] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:19:39.313] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:20:30.666] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:21:35.330] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:27:00.425] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:38:28.382] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:40:18.699] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:45:14.617] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T14:46:22.320] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:46:23.010] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T14:47:49.939] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T14:48:17.292] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T14:51:14.550] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T14:55:42.725] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:03:58.987] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:13:03.851] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:15:14.662] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:17:29.121] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:30:21.267] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:31:38.499] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:38:51.636] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:38:59.389] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:41:20.623] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:44:07.634] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:54:09.470] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:54:13.717] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T15:58:02.840] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T15:58:25.262] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T15:58:34.373] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:03:26.778] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:03:41.154] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:03:53.699] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:04:11.656] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:04:22.509] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:05:07.977] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:05:18.291] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:05:27.600] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:06:51.455] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:06:51.834] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:07:27.814] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:07:52.685] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:11:04.611] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:11:38.204] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:11:52.864] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:12:03.289] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:13:20.398] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:13:22.302] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:18:37.086] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:18:43.773] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:19:08.808] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:19:26.144] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:21:05.203] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:41:28.017] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:42:50.979] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T16:46:20.752] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:46:58.894] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:48:38.618] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:56:14.002] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:56:43.053] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:57:44.596] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T16:59:11.002] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:02:21.214] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:04:43.579] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:08:09.301] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:08:10.384] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:09:54.714] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:28:43.683] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:34:16.321] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:37:34.881] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:41:06.645] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:41:18.755] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:41:35.350] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:41:56.320] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:44:13.319] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T17:45:15.516] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:51:39.834] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:52:39.891] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:54:54.978] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:55:53.798] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T17:56:04.125] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:02:58.405] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:04:59.565] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:05:10.848] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:06:39.542] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:08:44.365] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:09:36.507] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:09:42.018] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:11:05.794] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:12:00.843] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:12:10.524] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:12:24.575] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:12:44.692] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:14:28.190] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:17:41.997] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:18:56.866] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:21:09.777] [INFO] db - Executing (default): SELECT 1+1 AS result
+[2024-01-16T18:21:24.516] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:23:06.516] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:27:09.965] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:29:46.910] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` WHERE `Admin`.`username` = 'dejavu' LIMIT 1;
+[2024-01-16T18:29:50.553] [INFO] db - Executing (default): SELECT count(*) AS `count` FROM `Admins` AS `Admin`;
+[2024-01-16T18:29:50.562] [INFO] db - Executing (default): SELECT `id`, `username`, `email`, `mobile`, `password`, `role`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 0, 15;
+[2024-01-16T18:30:43.309] [INFO] db - Executing (default): SELECT 1+1 AS result
