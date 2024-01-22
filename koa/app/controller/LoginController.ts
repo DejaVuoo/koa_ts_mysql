@@ -2,7 +2,7 @@
  * @Author: DejaVu 1343558760@qq.com
  * @Date: 2023-12-13 17:42:13
  * @LastEditors: DejaVu 1343558760@qq.com
- * @LastEditTime: 2024-01-16 18:20:20
+ * @LastEditTime: 2024-01-22 08:59:26
  * @FilePath: \koa\app\controller\LoginController.ts
  * @Description: 登录表单
  * 
@@ -22,19 +22,19 @@ const path = require('path');
 // const key_puth = path.join(process.cwd(), '/app/config/rsa');
 // rsa.output(key_puth)
 // console.log(keys)
-const priv_puth= path.join(process.cwd(), '/app/config/rsa/rsa_pri.pem');
-const pub_puth = path.join(process.cwd(), '/app/config/rsa/rsa_pub.pem');
-const pubKey = Rsa.getKey(pub_puth)
-const priKey = Rsa.getKey(priv_puth)
-console.log(pubKey,2222)
-const res_en_by_pub = rsa.encryptByPubKey('ljk990822', pubKey)
-const res_de_by_pri = rsa.decryptByPriKey(res_en_by_pub, priKey)
-const res_sign_by_pri = rsa.signature('123456', priKey)
-const res_verify_by_pub = rsa.verify('123456', res_sign_by_pri, pubKey)
-console.log('公钥加密：' + res_en_by_pub)
-console.log('私钥解密：' + res_de_by_pri)
-console.log('私钥签名：' + res_sign_by_pri)
-console.log('公钥验证：' + res_verify_by_pub)
+// const priv_puth= path.join(process.cwd(), '/app/config/rsa/rsa_pri.pem');
+// const pub_puth = path.join(process.cwd(), '/app/config/rsa/rsa_pub.pem');
+// const pubKey = Rsa.getKey(pub_puth)
+// const priKey = Rsa.getKey(priv_puth)
+// console.log(pubKey,2222)
+// const res_en_by_pub = rsa.encryptByPubKey('ljk990822', pubKey)
+// const res_de_by_pri = rsa.decryptByPriKey(res_en_by_pub, priKey)
+// const res_sign_by_pri = rsa.signature('123456', priKey)
+// const res_verify_by_pub = rsa.verify('123456', res_sign_by_pri, pubKey)
+// console.log('公钥加密：' + res_en_by_pub)
+// console.log('私钥解密：' + res_de_by_pri)
+// console.log('私钥签名：' + res_sign_by_pri)
+// console.log('公钥验证：' + res_verify_by_pub)
 
 class LoginController {
   async index(ctx: Context) {
